@@ -1,0 +1,19 @@
+{
+  "versione_schema": 2,
+  "id": "esempio-aperta_libera",
+  "titolo": "Esempio aperta libera",
+  "domande": [
+    {
+      "id": "mat-006",
+      "tipo": "aperta_libera",
+      "testo": "Spiega che cosa rappresenta una frazione e fai un esempio.",
+      "argomento": "Aritmetica",
+      "risposta_modello": "Una frazione rappresenta un rapporto o parti uguali di un intero. In 3/4, il denominatore 4 indica in quante parti uguali è diviso l'intero e il numeratore 3 indica quante parti si considerano.",
+      "criteri": [
+        "Descrive il significato della frazione",
+        "Distingue numeratore e denominatore",
+        "Presenta un esempio coerente"
+      ]
+    }
+  ]
+}

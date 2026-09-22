@@ -1,0 +1,195 @@
+{
+  "versione_schema": 2,
+  "id": "esempio-scelta_singola",
+  "titolo": "Esempio scelta singola",
+  "domande": [
+    {
+      "id": "geo-001",
+      "tipo": "scelta_singola",
+      "testo": "Qual è la capitale della Francia?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Roma"
+        },
+        {
+          "id": "B",
+          "testo": "Parigi"
+        },
+        {
+          "id": "C",
+          "testo": "Madrid"
+        },
+        {
+          "id": "D",
+          "testo": "Berlino"
+        }
+      ],
+      "corrette": [
+        "B"
+      ],
+      "spiegazione": "Parigi è la capitale della Francia."
+    },
+    {
+      "id": "geo-002",
+      "tipo": "scelta_singola",
+      "testo": "Qual è la capitale della Spagna?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Madrid"
+        },
+        {
+          "id": "B",
+          "testo": "Barcellona"
+        },
+        {
+          "id": "C",
+          "testo": "Lisbona"
+        },
+        {
+          "id": "D",
+          "testo": "Siviglia"
+        }
+      ],
+      "corrette": [
+        "A"
+      ],
+      "spiegazione": "La capitale della Spagna è Madrid."
+    },
+    {
+      "id": "geo-003",
+      "tipo": "scelta_singola",
+      "testo": "Qual è la capitale del Portogallo?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Porto"
+        },
+        {
+          "id": "B",
+          "testo": "Madrid"
+        },
+        {
+          "id": "C",
+          "testo": "Lisbona"
+        },
+        {
+          "id": "D",
+          "testo": "Braga"
+        }
+      ],
+      "corrette": [
+        "C"
+      ],
+      "spiegazione": "Lisbona è la capitale del Portogallo."
+    },
+    {
+      "id": "geo-004",
+      "tipo": "scelta_singola",
+      "testo": "Berlino è la capitale della Germania.",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Vero"
+        },
+        {
+          "id": "B",
+          "testo": "Falso"
+        }
+      ],
+      "corrette": [
+        "A"
+      ],
+      "spiegazione": "Il vero/falso è una domanda a scelta singola con due alternative."
+    },
+    {
+      "id": "mat-001",
+      "tipo": "scelta_singola",
+      "testo": "Quanto vale 7 × 8?",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "54"
+        },
+        {
+          "id": "B",
+          "testo": "56"
+        },
+        {
+          "id": "C",
+          "testo": "64"
+        },
+        {
+          "id": "D",
+          "testo": "48"
+        }
+      ],
+      "corrette": [
+        "B"
+      ],
+      "spiegazione": "Sette gruppi da otto elementi contengono 56 elementi."
+    },
+    {
+      "id": "mat-002",
+      "tipo": "scelta_singola",
+      "testo": "Quanto vale 3/4 espresso in percentuale?",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "25%"
+        },
+        {
+          "id": "B",
+          "testo": "50%"
+        },
+        {
+          "id": "C",
+          "testo": "75%"
+        },
+        {
+          "id": "D",
+          "testo": "80%"
+        }
+      ],
+      "corrette": [
+        "C"
+      ],
+      "spiegazione": "3 diviso 4 è 0,75: moltiplicando per 100 si ottiene 75%."
+    },
+    {
+      "id": "mat-003",
+      "tipo": "scelta_singola",
+      "testo": "Quale numero è primo?",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "15"
+        },
+        {
+          "id": "C",
+          "testo": "21"
+        },
+        {
+          "id": "D",
+          "testo": "17"
+        }
+      ],
+      "corrette": [
+        "D"
+      ],
+      "spiegazione": "17 ha come divisori positivi soltanto 1 e 17."
+    }
+  ]
+}

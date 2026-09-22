@@ -1,0 +1,28 @@
+{
+  "versione_schema": 2,
+  "id": "esempio-aperta_breve",
+  "titolo": "Esempio aperta breve",
+  "domande": [
+    {
+      "id": "geo-006",
+      "tipo": "aperta_breve",
+      "testo": "Scrivi la capitale della Francia.",
+      "argomento": "Capitali europee",
+      "risposte_ammesse": [
+        "Parigi",
+        "Paris"
+      ]
+    },
+    {
+      "id": "mat-005",
+      "tipo": "aperta_breve",
+      "testo": "Scrivi il valore decimale di un quarto.",
+      "argomento": "Aritmetica",
+      "risposte_ammesse": [
+        "0,25",
+        "0.25"
+      ],
+      "spiegazione": "Le varianti con virgola e punto sono ammesse esplicitamente."
+    }
+  ]
+}

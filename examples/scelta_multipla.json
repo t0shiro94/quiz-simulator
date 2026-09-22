@@ -1,0 +1,65 @@
+{
+  "versione_schema": 2,
+  "id": "esempio-scelta_multipla",
+  "titolo": "Esempio scelta multipla",
+  "domande": [
+    {
+      "id": "mat-004",
+      "tipo": "scelta_multipla",
+      "testo": "Seleziona tutti i numeri pari.",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        }
+      ],
+      "corrette": [
+        "A",
+        "C"
+      ],
+      "spiegazione": "I numeri pari sono divisibili per 2 senza resto."
+    },
+    {
+      "id": "geo-005",
+      "tipo": "scelta_multipla",
+      "testo": "Quali tra queste città sono capitali nazionali?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Roma"
+        },
+        {
+          "id": "B",
+          "testo": "Milano"
+        },
+        {
+          "id": "C",
+          "testo": "Lisbona"
+        },
+        {
+          "id": "D",
+          "testo": "Madrid"
+        }
+      ],
+      "corrette": [
+        "A",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

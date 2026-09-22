@@ -1,0 +1,286 @@
+{
+  "versione_schema": 2,
+  "id": "raccolta-demo",
+  "titolo": "Primi passi - Geografia e matematica",
+  "domande": [
+    {
+      "id": "geo-001",
+      "tipo": "scelta_singola",
+      "testo": "Qual è la capitale della Francia?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Roma"
+        },
+        {
+          "id": "B",
+          "testo": "Parigi"
+        },
+        {
+          "id": "C",
+          "testo": "Madrid"
+        },
+        {
+          "id": "D",
+          "testo": "Berlino"
+        }
+      ],
+      "corrette": [
+        "B"
+      ],
+      "spiegazione": "Parigi è la capitale della Francia."
+    },
+    {
+      "id": "geo-002",
+      "tipo": "scelta_singola",
+      "testo": "Qual è la capitale della Spagna?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Madrid"
+        },
+        {
+          "id": "B",
+          "testo": "Barcellona"
+        },
+        {
+          "id": "C",
+          "testo": "Lisbona"
+        },
+        {
+          "id": "D",
+          "testo": "Siviglia"
+        }
+      ],
+      "corrette": [
+        "A"
+      ],
+      "spiegazione": "La capitale della Spagna è Madrid."
+    },
+    {
+      "id": "geo-003",
+      "tipo": "scelta_singola",
+      "testo": "Qual è la capitale del Portogallo?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Porto"
+        },
+        {
+          "id": "B",
+          "testo": "Madrid"
+        },
+        {
+          "id": "C",
+          "testo": "Lisbona"
+        },
+        {
+          "id": "D",
+          "testo": "Braga"
+        }
+      ],
+      "corrette": [
+        "C"
+      ],
+      "spiegazione": "Lisbona è la capitale del Portogallo."
+    },
+    {
+      "id": "geo-004",
+      "tipo": "scelta_singola",
+      "testo": "Berlino è la capitale della Germania.",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Vero"
+        },
+        {
+          "id": "B",
+          "testo": "Falso"
+        }
+      ],
+      "corrette": [
+        "A"
+      ],
+      "spiegazione": "Il vero/falso è una domanda a scelta singola con due alternative."
+    },
+    {
+      "id": "mat-001",
+      "tipo": "scelta_singola",
+      "testo": "Quanto vale 7 × 8?",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "54"
+        },
+        {
+          "id": "B",
+          "testo": "56"
+        },
+        {
+          "id": "C",
+          "testo": "64"
+        },
+        {
+          "id": "D",
+          "testo": "48"
+        }
+      ],
+      "corrette": [
+        "B"
+      ],
+      "spiegazione": "Sette gruppi da otto elementi contengono 56 elementi."
+    },
+    {
+      "id": "mat-002",
+      "tipo": "scelta_singola",
+      "testo": "Quanto vale 3/4 espresso in percentuale?",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "25%"
+        },
+        {
+          "id": "B",
+          "testo": "50%"
+        },
+        {
+          "id": "C",
+          "testo": "75%"
+        },
+        {
+          "id": "D",
+          "testo": "80%"
+        }
+      ],
+      "corrette": [
+        "C"
+      ],
+      "spiegazione": "3 diviso 4 è 0,75: moltiplicando per 100 si ottiene 75%."
+    },
+    {
+      "id": "mat-003",
+      "tipo": "scelta_singola",
+      "testo": "Quale numero è primo?",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "9"
+        },
+        {
+          "id": "B",
+          "testo": "15"
+        },
+        {
+          "id": "C",
+          "testo": "21"
+        },
+        {
+          "id": "D",
+          "testo": "17"
+        }
+      ],
+      "corrette": [
+        "D"
+      ],
+      "spiegazione": "17 ha come divisori positivi soltanto 1 e 17."
+    },
+    {
+      "id": "mat-004",
+      "tipo": "scelta_multipla",
+      "testo": "Seleziona tutti i numeri pari.",
+      "argomento": "Aritmetica",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "2"
+        },
+        {
+          "id": "B",
+          "testo": "3"
+        },
+        {
+          "id": "C",
+          "testo": "4"
+        },
+        {
+          "id": "D",
+          "testo": "7"
+        }
+      ],
+      "corrette": [
+        "A",
+        "C"
+      ],
+      "spiegazione": "I numeri pari sono divisibili per 2 senza resto."
+    },
+    {
+      "id": "geo-005",
+      "tipo": "scelta_multipla",
+      "testo": "Quali tra queste città sono capitali nazionali?",
+      "argomento": "Capitali europee",
+      "risposte": [
+        {
+          "id": "A",
+          "testo": "Roma"
+        },
+        {
+          "id": "B",
+          "testo": "Milano"
+        },
+        {
+          "id": "C",
+          "testo": "Lisbona"
+        },
+        {
+          "id": "D",
+          "testo": "Madrid"
+        }
+      ],
+      "corrette": [
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "geo-006",
+      "tipo": "aperta_breve",
+      "testo": "Scrivi la capitale della Francia.",
+      "argomento": "Capitali europee",
+      "risposte_ammesse": [
+        "Parigi",
+        "Paris"
+      ]
+    },
+    {
+      "id": "mat-005",
+      "tipo": "aperta_breve",
+      "testo": "Scrivi il valore decimale di un quarto.",
+      "argomento": "Aritmetica",
+      "risposte_ammesse": [
+        "0,25",
+        "0.25"
+      ],
+      "spiegazione": "Le varianti con virgola e punto sono ammesse esplicitamente."
+    },
+    {
+      "id": "mat-006",
+      "tipo": "aperta_libera",
+      "testo": "Spiega che cosa rappresenta una frazione e fai un esempio.",
+      "argomento": "Aritmetica",
+      "risposta_modello": "Una frazione rappresenta un rapporto o parti uguali di un intero. In 3/4, il denominatore 4 indica in quante parti uguali è diviso l'intero e il numeratore 3 indica quante parti si considerano.",
+      "criteri": [
+        "Descrive il significato della frazione",
+        "Distingue numeratore e denominatore",
+        "Presenta un esempio coerente"
+      ]
+    }
+  ]
+}

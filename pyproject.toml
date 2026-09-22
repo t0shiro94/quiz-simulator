@@ -1,0 +1,37 @@
+[project]
+name = "quiz-simulator"
+version = "1.0.0"
+description = "Simulatore di quiz personale e portatile per Windows"
+authors = [{name = "Raffaele (t0shiro94)"}]
+requires-python = ">=3.14"
+dependencies = ["PySide6==6.11.2", "pypdf==6.18.1", "jsonschema==4.26.0"]
+
+[project.urls]
+Repository = "https://github.com/t0shiro94/quiz-simulator"
+Issues = "https://github.com/t0shiro94/quiz-simulator/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-qt==4.5.0",
+    "reportlab==5.0.1",
+    "pyinstaller==6.22.3",
+    "ruff==0.16.7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+qt_api = "pyside6"
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/capture_ui.py" = ["E402"]
+"scripts/benchmark.py" = ["E402"]
+"tests/conftest.py" = ["E402"]
