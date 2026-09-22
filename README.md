@@ -1,4 +1,20 @@
+<div align="center">
+
 # Quiz Simulator
+
+Applicazione desktop per Windows per creare, importare e ripassare raccolte di quiz con storico degli errori e allenamento adattivo.
+
+[![Release](https://img.shields.io/badge/release-v1.0.0-2ea44f?style=flat-square)](https://github.com/t0shiro94/quiz-simulator/releases/tag/v1.0.0)
+![Platform](https://img.shields.io/badge/platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+
+**[⬇️ Scarica Quiz Simulator per Windows](https://github.com/t0shiro94/quiz-simulator/releases/latest)**  
+[Guida utente](GUIDA_UTENTE.md) · [Contribuire](CONTRIBUTING.md) · [Sicurezza](SECURITY.md)
+
+</div>
+
+---
 
 Ho creato Quiz Simulator per organizzare le mie raccolte di domande e rendere più efficace il ripasso. È un'applicazione desktop per Windows che importa file JSON e PDF, propone allenamenti ed esami, conserva gli errori e costruisce ripassi mirati in base ai risultati.
 
