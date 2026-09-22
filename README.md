@@ -10,7 +10,7 @@ Applicazione desktop per Windows per creare, importare e ripassare raccolte di q
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
 **[⬇️ Scarica Quiz Simulator per Windows](https://github.com/t0shiro94/quiz-simulator/releases/latest)**  
-[Guida utente](GUIDA_UTENTE.md) · [Contribuire](CONTRIBUTING.md) · [Sicurezza](SECURITY.md)
+[Guida utente](GUIDA_UTENTE.md) · [Architettura](ARCHITECTURE.md) · [Changelog](CHANGELOG.md) · [Contribuire](CONTRIBUTING.md) · [Sicurezza](SECURITY.md)
 
 </div>
 
